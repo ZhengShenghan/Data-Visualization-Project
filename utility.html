@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Static Data Visualization Dashboard</title>
+    <style>
+      /* 设置整个可视化大屏的大小 */
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+
+      /* 设置模块的位置和大小 */
+      .module1 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 400px;
+        height: 300px;
+      }
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <svg>
+      <g class="module1"></g>
+    </svg>
+
+    <script>
+      // 在模块中绘制矩形框
+      const svg = d3.select('.module1')
+        .append('svg')
+        .attr('width', 400)
+        .attr('height', 300);
+      
+      const margin = { top: 20, right: 20, bottom: 30, left: 30 };
+      const width = +svg.attr('width') - margin.left - margin.right;
+      const height = +svg.attr('height') - margin.top - margin.bottom;
+      
+      const g = svg.append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+      
+      g.append('rect')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('width', width)
+        .attr('height', height)
+        .attr('rx', 10) // 设置圆角的半径
+        .attr('ry', 10) // 设置圆角的半径
+        .style('fill', 'lightblue')
+        .style('stroke', 'blue')
+        .style('stroke-width', 2);
+    </script>
+  </body>
+</html>
