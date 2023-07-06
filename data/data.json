@@ -1,0 +1,1152 @@
+[
+    {
+        "title": "#张恒当然是我的宝宝#",
+        "time": "2021-01-19",
+        "total": 67097,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.2
+            },
+            {
+                "title": "讨厌",
+                "count": 0.8
+            },
+            {
+                "title": "支持",
+                "count": 0.3
+            },
+            {
+                "title": "喜爱",
+                "count": 0.2
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "郑爽",
+                "size": 12202,
+                "relations": [
+                    "美国",
+                    "法律",
+                    "张恒",
+                    "不正常",
+                    "原名"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 8480,
+                "relations": [
+                    "震惊",
+                    "弃养",
+                    "合法"
+                ]
+            },
+            {
+                "text": "张恒",
+                "size": 9528,
+                "relations": [
+                    "恋爱",
+                    "分手",
+                    "争执"
+                ]
+            },
+            {
+                "text": "震惊",
+                "size": 2594,
+                "relations": [
+                    "吃瓜"
+                ]
+            },
+            {
+                "text": "吃瓜",
+                "size": 2594,
+                "relations": [
+                    "震惊"
+                ]
+            },
+            {
+                "text": "孩子",
+                "size": 13506,
+                "relations": [
+                    "双胞胎",
+                    "曝光",
+                    "照片"
+                ]
+            }
+        ],
+        "rank": 0,
+        "startTime": "2021-01-20",
+        "mapData": [
+            {
+                "total": 1248,
+                "title": "震惊",
+                "region": "上海"
+            },
+            {
+                "total": 9827,
+                "title": "郑爽",
+                "region": "北京"
+            },
+            {
+                "total": 2813,
+                "title": "代孕",
+                "region": "浙江"
+            },
+            {
+                "total": 1592,
+                "title": "张恒",
+                "region": "四川"
+            },
+            {
+                "total": 3491,
+                "title": "孩子",
+                "region": "广东"
+            },
+            {
+                "total": 572,
+                "title": "弃养",
+                "region": "西藏"
+            }
+        ]
+    },
+    {
+        "title": "#张恒发文#",
+        "time": "2021-01-18",
+        "total": 73035,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.6
+            },
+            {
+                "title": "讨厌",
+                "count": 0.7
+            },
+            {
+                "title": "支持",
+                "count": 0.6
+            },
+            {
+                "title": "喜爱",
+                "count": 0.4
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "郑爽",
+                "size": 18630,
+                "relations": [
+                    "美国",
+                    "法律",
+                    "张恒",
+                    "不正常",
+                    "原名"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 7330,
+                "relations": [
+                    "郑爽",
+                    "违法",
+                    "孩子",
+                    "弃养",
+                    "实锤"
+                ]
+            },
+            {
+                "text": "封杀",
+                "size": 1576,
+                "relations": [
+                    "赶紧",
+                    "坚决",
+                    "劣质"
+                ]
+            },
+            {
+                "text": "弃养",
+                "size": 1478,
+                "relations": [
+                    "代孕",
+                    "可恨"
+                ]
+            },
+            {
+                "text": "张恒",
+                "size": 12980,
+                "relations": [
+                    "追究",
+                    "责任",
+                    "尽职尽责",
+                    "问题"
+                ]
+            },
+            {
+                "text": "粉丝",
+                "size": 2748,
+                "relations": [
+                    "可怕",
+                    "制止",
+                    "洗白",
+                    "三观"
+                ]
+            },
+            {
+                "text": "孩子",
+                "size": 14469,
+                "relations": [
+                    "责任",
+                    "证明",
+                    "父亲"
+                ]
+            },
+            {
+                "text": "中国",
+                "size": 1565,
+                "relations": [
+                    "国籍",
+                    "美国",
+                    "违法",
+                    "妇女"
+                ]
+            }
+        ],
+        "rank": 1,
+        "startTime": "2021-01-18",
+        "mapData": [
+            {
+                "total": 4742,
+                "title": "代孕",
+                "region": "上海"
+            },
+            {
+                "total": 10452,
+                "title": "郑爽",
+                "region": "北京"
+            },
+            {
+                "total": 6709,
+                "title": "封杀",
+                "region": "浙江"
+            },
+            {
+                "total": 5831,
+                "title": "张恒",
+                "region": "江苏"
+            },
+            {
+                "total": 1247,
+                "title": "弃养",
+                "region": "四川"
+            },
+            {
+                "total": 3596,
+                "title": "孩子",
+                "region": "甘肃"
+            },
+            {
+                "total": 574,
+                "title": "中国",
+                "region": "黑龙江"
+            },
+            {
+                "total": 3961,
+                "title": "粉丝",
+                "region": "西藏"
+            }
+        ]
+    },
+    {
+        "title": "#郑爽删除回应文#",
+        "time": "2021-01-23",
+        "total": 12592,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.3
+            },
+            {
+                "title": "讨厌",
+                "count": 0.4
+            },
+            {
+                "title": "支持",
+                "count": 0.5
+            },
+            {
+                "title": "喜爱",
+                "count": 0.6
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "郑爽",
+                "size": 1527,
+                "relations": [
+                    "代孕",
+                    "回应",
+                    "封杀"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 784,
+                "relations": [
+                    "郑爽",
+                    "机构",
+                    "封杀"
+                ]
+            },
+            {
+                "text": "封杀",
+                "size": 1011,
+                "relations": [
+                    "艺人",
+                    "热搜",
+                    "退圈"
+                ]
+            },
+            {
+                "text": "弃养",
+                "size": 1478,
+                "relations": [
+                    "代孕",
+                    "可恨",
+                    "团队"
+                ]
+            },
+            {
+                "text": "违法",
+                "size": 3177,
+                "relations": [
+                    "制裁"
+                ]
+            },
+            
+            {
+                "text": "粉丝",
+                "size": 227,
+                "relations": [
+                    "洗白",
+                    "三观"
+                ]
+            },
+            {
+                "text": "孩子",
+                "size": 433,
+                "relations": [
+                    "可惜",
+                    "挡箭牌"
+                ]
+            }
+        ],
+        "rank": 1,
+        "startTime": "2021-01-23",
+        "mapData": [
+            {
+                "total": 1872,
+                "title": "郑爽",
+                "region": "浙江"
+            },
+            {
+                "total": 2491,
+                "title": "封杀",
+                "region": "北京"
+            },
+            {
+                "total": 821,
+                "title": "违法",
+                "region": "江苏"
+            },
+            {
+                "total": 2247,
+                "title": "违法",
+                "region": "上海"
+            },
+            {
+                "total": 96,
+                "title": "孩子",
+                "region": "湖南"
+            },
+            {
+                "total": 523,
+                "title": "弃养",
+                "region": "山东"
+            },
+            {
+                "total": 127,
+                "title": "粉丝",
+                "region": "吉林"
+            }
+        ]
+    },
+    {
+        "title": "#中国视协称郑爽超越道德底线#",
+        "time": "2021-01-22",
+        "total": 952,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.2
+            },
+            {
+                "title": "讨厌",
+                "count": 0.7
+            },
+            {
+                "title": "支持",
+                "count": 0.4
+            },
+            {
+                "title": "喜爱",
+                "count": 0.4
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "郑爽",
+                "size": 144,
+                "relations": [
+                    "代孕",
+                    "批评",
+                    "封杀",
+                    "道德底线",
+                    "惨"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 645,
+                "relations": [
+                    "入刑",
+                    "底线",
+                    "管理"
+                ]
+            },
+            {
+                "text": "合法",
+                "size": 189,
+                "relations": [
+                    "本质",
+                    "运动",
+                    "国外"
+                ]
+            }
+        ],
+        "rank": 0,
+        "startTime": "2021-01-22",
+        "mapData": [
+            {
+                "total": 645,
+                "title": "代孕",
+                "region": "北京"
+            },
+            {
+                "total": 144,
+                "title": "郑爽",
+                "region": "浙江"
+            }
+        ]
+    },
+    {
+        "title": "#中央政法委评郑爽代孕弃养#",
+        "time": "2021-01-19",
+        "total": 96911,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.3
+            },
+            {
+                "title": "讨厌",
+                "count": 0.6
+            },
+            {
+                "title": "支持",
+                "count": 0.8
+            },
+            {
+                "title": "喜爱",
+                "count": 0.2
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "郑爽",
+                "size": 16151,
+                "relations": [
+                    "中央政法委",
+                    "脑残粉",
+                    "纳税",
+                    "代孕",
+                    "弃养"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 29611,
+                "relations": [
+                    "禁止",
+                    "违法",
+                    "反对",
+                    "弃养"
+                ]
+            },
+            {
+                "text": "封杀",
+                "size": 6566,
+                "relations": [
+                    "赶紧",
+                    "彻底",
+                    "郑爽",
+                    "污点"
+                ]
+            },
+            {
+                "text": "弃养",
+                "size": 963,
+                "relations": [
+                    "代孕",
+                    "孩子",
+                    "实锤",
+                    "事实"
+                ]
+            },
+            {
+                "text": "张恒",
+                "size": 247,
+                "relations": [
+                    "追究",
+                    "责任",
+                    "尽职尽责",
+                    "问题"
+                ]
+            },
+            {
+                "text": "违法",
+                "size": 441,
+                "relations": [
+                    "代孕",
+                    "震慑",
+                    "反对",
+                    "乱纪"
+                ]
+            }
+        ],
+        "rank": 1,
+        "startTime": "2021-01-19",
+        "mapData": [
+            {
+                "total": 14643,
+                "title": "代孕",
+                "region": "上海"
+            },
+            {
+                "total": 10452,
+                "title": "郑爽",
+                "region": "北京"
+            },
+            {
+                "total": 3743,
+                "title": "封杀",
+                "region": "浙江"
+            },
+            {
+                "total": 574,
+                "title": "弃养",
+                "region": "四川"
+            }
+        ]
+    },{
+        "title": "#郑爽称张恒出轨#",
+        "time": "2021-01-20",
+        "total": 54493,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.4
+            },
+            {
+                "title": "讨厌",
+                "count": 0.7
+            },
+            {
+                "title": "支持",
+                "count": 0.4
+            },
+            {
+                "title": "喜爱",
+                "count": 0.1
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "出轨",
+                "size": 22027,
+                "relations": [
+                    "cg",
+                    "照片",
+                    "张恒",
+                    "不正常",
+                    "原名"
+                ]
+            },
+            {
+                "text": "渣男",
+                "size": 19324,
+                "relations": [
+                    "震惊",
+                    "代孕"
+                ]
+            },
+            {
+                "text": "恋爱脑",
+                "size": 3412,
+                "relations": [
+                    "吃瓜",
+                    "团队",
+                    "疯子",
+                    "弃养",
+                    "作文"
+                ]
+            },
+            {
+                "text": "封杀",
+                "size": 2594,
+                "relations": [
+                    "消失"
+                ]
+            },
+            {
+                "text": "吃瓜",
+                "size": 2594,
+                "relations": [
+                    "震惊"
+                ]
+            },
+            {
+                "text": "孩子",
+                "size": 13506,
+                "relations": [
+                    "双胞胎",
+                    "曝光",
+                    "照片"
+                ]
+            }
+        ],
+        "rank": 1,
+        "startTime": "2021-01-20",
+        "mapData": [
+            {
+                "total": 3248,
+                "title": "出轨",
+                "region": "上海"
+            },
+            {
+                "total": 9827,
+                "title": "代孕",
+                "region": "北京"
+            },
+            {
+                "total": 2813,
+                "title": "出轨",
+                "region": "江西"
+            },
+            {
+                "total": 1592,
+                "title": "渣男",
+                "region": "广东"
+            },
+            {
+                "total": 3491,
+                "title": "代孕",
+                "region": "山东"
+            },
+            {
+                "total": 823,
+                "title": "弃养",
+                "region": "重庆"
+            }
+        ]
+    },
+    {
+        "title": "#郑爽回应一直在争取抚养权#",
+        "time": "2021-01-23",
+        "total": 80823,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.3
+            },
+            {
+                "title": "讨厌",
+                "count": 0.7
+            },
+            {
+                "title": "支持",
+                "count": 0.5
+            },
+            {
+                "title": "喜爱",
+                "count": 0.3
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "弃养",
+                "size": 18630,
+                "relations": [
+                    "谣言",
+                    "舆论",
+                    "网络办案",
+                    "不正常",
+                    "公平"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 7330,
+                "relations": [
+                    "郑爽",
+                    "违法",
+                    "解释",
+                    "弃养",
+                    "实锤"
+                ]
+            },
+            {
+                "text": "老师",
+                "size": 1576,
+                "relations": [
+                    "赶紧",
+                    "坚决",
+                    "劣质"
+                ]
+            },
+            {
+                "text": "谣言",
+                "size": 1478,
+                "relations": [
+                    "代孕",
+                    "可恨"
+                ]
+            },
+            {
+                "text": "粉丝",
+                "size": 2448,
+                "relations": [
+                    "可怕",
+                    "制止",
+                    "洗白",
+                    "三观"
+                ]
+            },
+            {
+                "text": "法律",
+                "size": 1469,
+                "relations": [
+                    "真相",
+                    "证明",
+                    "违法"
+                ]
+            },
+            {
+                "text": "录音",
+                "size": 1565,
+                "relations": [
+                    "说服力",
+                    "谣言",
+                    "违法"
+                ]
+            }
+        ],
+        "rank": 2,
+        "startTime": "2021-01-18",
+        "mapData": [
+            {
+                "total": 4742,
+                "title": "弃养",
+                "region": "上海"
+            },
+            {
+                "total": 10452,
+                "title": "谣言",
+                "region": "北京"
+            },
+            {
+                "total": 6709,
+                "title": "封杀",
+                "region": "河南"
+            },
+            {
+                "total": 5831,
+                "title": "真相",
+                "region": "广东"
+            },
+            {
+                "total": 1247,
+                "title": "弃养",
+                "region": "四川"
+            },
+            {
+                "total": 196,
+                "title": "谣言",
+                "region": "甘肃"
+            },
+            {
+                "total": 1574,
+                "title": "洗白",
+                "region": "黑龙江"
+            },
+            {
+                "total": 723,
+                "title": "洗白",
+                "region": "安徽"
+            }
+        ]
+    },
+    {
+        "title": "#郑爽诉张恒案二审开庭#",
+        "time": "2021-01-19",
+        "total": 220823,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.3
+            },
+            {
+                "title": "讨厌",
+                "count": 0.7
+            },
+            {
+                "title": "支持",
+                "count": 0.3
+            },
+            {
+                "title": "喜爱",
+                "count": 0.2
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "弃养",
+                "size": 78630,
+                "relations": [
+                    "谣言",
+                    "舆论",
+                    "违法",
+                    "不正常",
+                    "公平"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 7330,
+                "relations": [
+                    "郑爽",
+                    "违法",
+                    "解释",
+                    "弃养",
+                    "实锤",
+                    "精彩"
+                ]
+            },
+            {
+                "text": "郑爽",
+                "size": 1576,
+                "relations": [
+                    "疯批",
+                    "心机",
+                    "劣质"
+                ]
+            },
+            {
+                "text": "谣言",
+                "size": 1478,
+                "relations": [
+                    "代孕",
+                    "可恨"
+                ]
+            },
+            {
+                "text": "粉丝",
+                "size": 2448,
+                "relations": [
+                    "可怕",
+                    "制止",
+                    "洗白",
+                    "三观"
+                ]
+            },
+            {
+                "text": "法律",
+                "size": 1469,
+                "relations": [
+                    "真相",
+                    "证明",
+                    "违法"
+                ]
+            },
+            {
+                "text": "录音",
+                "size": 1565,
+                "relations": [
+                    "说服力",
+                    "谣言",
+                    "违法"
+                ]
+            }
+        ],
+        "rank": 2,
+        "startTime": "2021-01-18",
+        "mapData": [
+            {
+                "total": 4742,
+                "title": "弃养",
+                "region": "上海"
+            },
+            {
+                "total": 10452,
+                "title": "谣言",
+                "region": "北京"
+            },
+            {
+                "total": 6709,
+                "title": "封杀",
+                "region": "河南"
+            },
+            {
+                "total": 5831,
+                "title": "真相",
+                "region": "广东"
+            },
+            {
+                "total": 1247,
+                "title": "弃养",
+                "region": "四川"
+            },
+            {
+                "total": 196,
+                "title": "谣言",
+                "region": "甘肃"
+            },
+            {
+                "total": 1574,
+                "title": "洗白",
+                "region": "黑龙江"
+            },
+            {
+                "total": 723,
+                "title": "洗白",
+                "region": "安徽"
+            }
+        ]
+    },
+    {
+        "title": "#郑爽张恒父母录音#",
+        "time": "2021-01-18",
+        "total": 252994,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.5
+            },
+            {
+                "title": "讨厌",
+                "count": 0.7
+            },
+            {
+                "title": "支持",
+                "count": 0.5
+            },
+            {
+                "title": "喜爱",
+                "count": 0.2
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "郑爽",
+                "size": 12202,
+                "relations": [
+                    "美国",
+                    "法律",
+                    "张恒",
+                    "封杀"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 8480,
+                "relations": [
+                    "震惊",
+                    "弃养",
+                    "人性"
+                ]
+            },
+            {
+                "text": "张恒",
+                "size": 9528,
+                "relations": [
+                    "恋爱",
+                    "分手",
+                    "争执"
+                ]
+            },
+            {
+                "text": "震惊",
+                "size": 2594,
+                "relations": [
+                    "吃瓜"
+                ]
+            },
+            {
+                "text": "吃瓜",
+                "size": 2594,
+                "relations": [
+                    "震惊"
+                ]
+            },
+            {
+                "text": "孩子",
+                "size": 13506,
+                "relations": [
+                    "双胞胎",
+                    "曝光",
+                    "照片"
+                ]
+            }
+        ],
+        "rank": 2,
+        "startTime": "2021-02-09",
+        "mapData": [
+            {
+                "total": 1248,
+                "title": "震惊",
+                "region": "上海"
+            },
+            {
+                "total": 9827,
+                "title": "郑爽",
+                "region": "北京"
+            },
+            {
+                "total": 2813,
+                "title": "代孕",
+                "region": "浙江"
+            },
+            {
+                "total": 1592,
+                "title": "张恒",
+                "region": "四川"
+            },
+            {
+                "total": 3491,
+                "title": "孩子",
+                "region": "广东"
+            },
+            {
+                "total": 572,
+                "title": "弃养",
+                "region": "西藏"
+            }
+        ]
+    },
+    {
+        "title": "#郑爽张恒孩子出生证明#",
+        "time": "2021-01-18",
+        "total": 122994,
+        "emotions": [
+            {
+                "title": "仇恨",
+                "count": 0.3
+            },
+            {
+                "title": "讨厌",
+                "count": 0.7
+            },
+            {
+                "title": "支持",
+                "count": 0.2
+            },
+            {
+                "title": "喜爱",
+                "count": 0.2
+            }
+        ],
+        "cloudList": [
+            {
+                "text": "郑爽",
+                "size": 22202,
+                "relations": [
+                    "违法",
+                    "张恒",
+                    "封杀"
+                ]
+            },
+            {
+                "text": "代孕",
+                "size": 7280,
+                "relations": [
+                    "震惊",
+                    "弃养",
+                    "人性",
+                    "劣质"
+                ]
+            },
+            {
+                "text": "震惊",
+                "size": 9528,
+                "relations": [
+                    "恋爱",
+                    "分手",
+                    "吃瓜"
+                ]
+            },
+            {
+                "text": "孩子",
+                "size": 13506,
+                "relations": [
+                    "双胞胎",
+                    "曝光",
+                    "照片"
+                ]
+            }
+        ],
+        "rank": 1,
+        "startTime": "2021-02-01",
+        "mapData": [
+            {
+                "total": 8248,
+                "title": "封杀",
+                "region": "上海"
+            },
+            {
+                "total": 9827,
+                "title": "代孕",
+                "region": "北京"
+            },
+            {
+                "total": 2813,
+                "title": "代孕",
+                "region": "浙江"
+            },
+            {
+                "total": 4592,
+                "title": "封杀",
+                "region": "湖南"
+            },
+            {
+                "total": 1791,
+                "title": "代孕",
+                "region": "广东"
+            },
+            {
+                "total": 572,
+                "title": "弃养",
+                "region": "西藏"
+            }
+        ]
+    }
+]

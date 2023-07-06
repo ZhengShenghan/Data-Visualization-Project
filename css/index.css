@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 0.14rem;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem ;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.box {
+    padding: 0.3rem 0.3rem 0 0.3rem;
+    box-sizing: border-box;
+    border: 0.01rem solid #807f7f;
+    border-radius: 0.08rem;
+    margin-bottom: 0.24rem;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left-box {
+    width: 25%;
+    min-width: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-top {
+    color: #fff;
+    border: none !important;
+}
+
+.left-top .title {
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+
+.left-top .sub {
+    font-size: 0.2rem;
+    color: #999;
+}
+
+.left-retrieval {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none !important;
+    padding-right: 0;
+}
+
+.left-retrieval .left-input-title {
+    margin-right: 0.4rem;
+}
+
+.left-retrieval .left-input-title .title {
+    font-size: 0.3rem;
+}
+
+.left-retrieval .left-input-title .sub {
+    font-size: 0.16rem;
+    color: #999;
+}
+
+.left-retrieval-input {
+    flex: 1;
+    line-height: 0;
+}
+
+.left-retrieval-input input {
+    width: 100%;
+    height: 0.5rem;
+    padding: 0.08rem 0.24rem ;
+    box-sizing: border-box;
+    font-size: 0.2rem;
+    color: red;
+    background-color: black;
+    border: 0.01rem solid #999;
+    border-radius: 0.02rem;
+}
+
+.left-risk {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-risk-title .title {
+    font-size: 0.3rem;
+}
+
+.left-risk-title .sub {
+    font-size: 0.16rem;
+    color: #999;
+}
+
+.left-risk-echarts {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0;
+}
+
+.circular-box {
+    flex: 1;
+    display: flex;
+}
+
+.circular-box .circular {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-right: 0.2rem;
+}
+
+.circular-box .green {
+    border: 0.02rem solid #2daf50;
+    background-color: #308d4a;
+    opacity: 0.7;
+}
+
+.circular-box .green.activeCircular {
+    background-color: #06f546;
+    opacity: 1;
+}
+
+.circular-box .yellow {
+    border: 0.02rem solid #d2b838;
+    background-color: #867625;
+    opacity: 0.7;
+}
+.circular-box .yellow.activeCircular  {
+    background-color: #fcd204;
+    opacity: 1;
+}
+
+
+.circular-box .red {
+    border: 0.02rem solid red;
+    background-color: #e14f4f;
+    opacity: 0.7;
+}
+
+.circular-box .red.activeCircular  {
+    background-color: red;
+    opacity: 1;
+}
+
+.left-risk-echarts .rank {
+    display: flex;
+    align-items: center;
+}
+
+.left-risk-echarts .rank #icon {
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.left-risk-echarts .rank .grade {
+    color: #a40202;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+
+.left-risk-time {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.16rem 0;
+}
+
+.left-risk-time .title {
+    font-weight: bold;
+}
+
+.left-risk-time .time {
+    color: #999999;
+}
+
+.left-bottom-trend {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.map {
+    flex: 1;
+    height: 100%;
+    border: none;
+}
+
+.top-right {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.word-cloud {
+    height: 60%;
+    display: flex;
+    padding-bottom: 0.3rem;
+}
+
+.word-cloud-left {
+    width: 30%;
+    margin-right: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.word-cloud-left .title-box .title{
+    font-size: 0.3rem;
+}
+
+.word-cloud-left .title-box .sub{
+    font-size: 0.16rem;
+    color: #999;
+}
+
+.word-cloud-left  .top-one {
+    background-color: #505050;
+    border-radius: 0.04rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+
+.word-cloud-left  .top-one .hot-word {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.word-cloud-left  .top-one .hot-word .title {
+    flex: 1;
+    color: red;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+
+.word-cloud-left  .top-one .hot-word .sub {
+    font-weight: bold;
+    line-height: 2;
+}
+
+.word-cloud-left  .top-one .top-one-item {
+    margin-top: 0.08rem;
+}
+
+.word-cloud-left  .top-one .top-one-item .sub {
+    margin-left: 0.04rem;
+    color: #999;
+}
+
+.word-cloud-echarts {
+    flex: 1;
+}
+
+.emotional-analysis {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.3rem;
+}
+
+.emotional-analysis-left {
+    width: 40%;
+}
+
+.emotional-analysis-left .title {
+    font-size: 0.3rem;
+}
+
+.emotional-analysis-left .sub {
+    font-size: 0.16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.emotional-analysis-echarts {
+    flex: 1;
+    height: 0;
+    box-sizing: border-box;
+}
+
+.bottom {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.bottom-title {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+.bottom-title .title-box .title {
+    font-size: 0.3rem;
+}
+.bottom-title .title-box .sub {
+    font-size: 0.16rem;
+    color: #999;
+}

@@ -1,94 +1,146 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Static Data Visualization Dashboard</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="modules.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      /* 设置整个可视化大屏的大小 */
-      svg {
-        width: 1260px;
-        height: 730px;
-      }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>d3</title>
+    <script src="./js/d3.js"></script>
+    <script src="./js/d3.layout.cloud.js"></script>
+    <script src="./js/rem.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div id="app">
 
-      /* 设置每个模块的位置和大小 */
-      /* module1 舆情失控风险 */
-      .module1 {
-        position: absolute;
-        top: 500px;
-        left: 20px;
-        width: 400px;
-        height: 300px;
-        /* 设置折线图的位置 */
-        transform: translate(5%, 0%);
-      }
-      
-      /* module2 各平台热度趋势 */
-      .module2 {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        width: 400px;
-        height: 300px;
-        transform: translate(50%, 40%);
-      }
+    <div class="top">
+        <!--标题、检索、舆情失控风险-->
+        <div class="top-left-box">
+            <!--标题-->
+            <div class="left-top box">
+                <div class="title">
+                    评论数据可视化
+                </div>
+                <div class="sub">
+                    Data Visualization of Comments
+                </div>
+            </div>
+            <!--检索-->
+            <div class="left-retrieval box">
+                <div class="left-input-title">
+                    <div class="title">监控事件</div>
+                    <div class="sub">Monitoring Event</div>
+                </div>
+                <div class="left-retrieval-input">
+                    <input  list="datalist" placeholder="请输入" id='input' onchange="handlerInputChange()">
+                    <datalist id="datalist">
+                        <option value="111">
+                    </datalist>
+                </div>
+            </div>
+            <!--舆情失控风险-->
+            <div class="left-risk box">
+                <div class="left-risk-title">
+                    <div class="title">
+                        舆情失控风险
+                    </div>
+                    <div class="sub">
+                        Risk of Public Opinion Losing Control
+                    </div>
+                </div>
+                <div class="left-risk-echarts">
+                    <div class="circular-box">
+                        <div class="circular green"></div>
+                        <div class="circular yellow"></div>
+                        <div class="circular red"></div>
+                    </div>
+                    <div class="rank">
+                        <img src="" id="icon" alt="" />
+                        <div class="grade" id="grade">
+                            较高
+                        </div>
+                    </div>
+                </div>
+                <div class="left-risk-time">
+                    <div class="title">
+                        失控开始时间
+                    </div>
+                    <div class="time" id="time">
+                        2021-01-18
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--地图-->
+        <div class="map box" id="map"></div>
+        <!--词云、情绪分析-->
+        <div class="top-right">
+            <!--词云-->
+            <div class="word-cloud box">
+                <div class="word-cloud-left">
+                    <div class="title-box">
+                        <div class="title">
+                            词云
+                        </div>
+                        <div class="sub">
+                            Wold Cloud
+                        </div>
+                    </div>
 
-      /* 在每个模块中绘制可视化 */
-      
+                    <div class="top-one">
+                        <div class="hot-word">
+                            <div class="title" id="myTitle1">
+                                郑爽
+                            </div>
+                            <div class="sub">No-1</div>
+                        </div>
+                        <div class="top-one-item">
+                            <span>词频</span>
+                            <span class="sub" id="myTitle2">2089</span>
+                        </div>
+                        <div class="top-one-item">
+                            <span>关联</span>
+                            <span class="sub" id="myTitle3">代孕 张衡</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="word-cloud-echarts" id="cloud">
 
-      .module2 circle {
-        fill: red;
-      }
-    </style>
-    
-  </head>
+                </div>
+            </div>
+            <!--情绪分析-->
+            <div class="emotional-analysis box" id="bar-parent">
+                <div class="emotional-analysis-left">
+                    <div class="title">
+                        情绪
+                        <br/>
+                        分析
+                    </div>
+                    <div class="sub">
+                        Emotion Analysis
+                    </div>
+                </div>
+                <div class="emotional-analysis-echarts" id="bar">
 
-  <body>
-    <svg class ="main">
-      <g class="module1">
-      </g>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      
-      
-      <g class="module2">
-        <circle cx="200" cy="150" r="100"></circle>
-      </g>
-    </svg>
-
-    <script>
-    // 创建SVG元素
-    var svg = d3.select("svg")
-    //选中第一个svg
-    ;
-
-    svg.style("background-color","#696969");
-
-    // 创建第一个圆角矩形
-    svg.append("rect")
-    .attr("x", 50)
-    .attr("y", 50)
-    .attr("width", 100)
-    .attr("height", 50)
-    .attr("rx", 10)
-    .attr("ry", 10)
-    .style("fill", "black")
-    .style("stroke","white")
-    .style("stroke-width",2);
-
-    // 创建第二个圆角矩形
-    svg.append("rect")
-    .attr("x", 200)
-    .attr("y", 100)
-    .attr("width", 150)
-    .attr("height", 100)
-    .attr("rx", 20)
-    .attr("ry", 20)
-    .style("fill", "black");
-        
-
-    </script>
-  </body>
+    <!--各平台趋势、时间线-->
+    <div class="bottom box" id="timeLine">
+        <!--时间线-->
+        <div class="bottom-title">
+            <div class="title-box">
+                <div class="title">
+                    时间线
+                </div>
+                <div class="sub">
+                    Timeline
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
-
