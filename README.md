@@ -14,6 +14,6 @@
 ## 数据
 我们使用了张恒郑爽事件下多个相关话题的评论作为本工作的数据。
 我们将筛选后的数据放入data文件夹下，直接在网页展示出来。
-具体数据爬取及情感分析请详见weiboSpider文件夹，该部分代码改编自**[WeiboSpider_SentimentAnalysis](https://github.com/CUHKSZ-TQL/WeiboSpider_SentimentAnalysis)**。
+具体数据爬取及情感分析请详见weiboSpider文件夹，该部分代码改编自[WeiboSpider_SentimentAnalysis](https://github.com/CUHKSZ-TQL/WeiboSpider_SentimentAnalysis)。
 
-![image-20230706112409342](C:\Users\Eric Zheng\AppData\Roaming\Typora\typora-user-images\image-20230706112409342.png)
+![image-20230706112409342](C:\Users\Eric Zheng\AppData\Roaming\Typora\typora-user-images\image-20230706112409342.png?raw=true)
