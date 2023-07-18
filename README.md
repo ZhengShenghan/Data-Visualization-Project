@@ -1,3 +1,16 @@
+# Weibo comment data visualization
+This is a data visualization project based on Weibo comment data. It can help you better understand the relevant comments on a Weibo topic, discover the development of the topic's popularity over time, the focus of comments in various regions of China, and netizens. Emotional response to the event, in order to achieve the purpose of public opinion monitoring.
+
+## Open Method
+Please use VScode to open the project, and use the live server plug-in in index.html to open it.
+
+## How to use
+Click the circle on the timeline that represents a specific topic, and the corresponding risk of public opinion getting out of control, keywords, word cloud, and sentiment analysis around the map will change accordingly. There are three grades of high, medium, and low risk of public opinion out of control, which are comprehensively obtained based on the number of comments and sentiment analysis. The size of the circle represents the volume of comments and the popularity of the topic. The size of the primitives on the map represents the number of comments from the region, and the keywords in the primitives are the words that appear most frequently in the reviews of the region. The word cloud shows the keywords that appear frequently in the topic.
+
+## data
+We used comments on multiple related topics under the Zhang Heng and Zheng Shuang incident as the data for this work. We put the filtered data into the data folder and display it directly on the web page. For details on data crawling and sentiment analysis, please refer to the weiboSpider folder. This part of the code is adapted from [WeiboSpider_SentimentAnalysis](https://github.com/CUHKSZ-TQL/WeiboSpider_SentimentAnalysis).
+
+
 # 微博评论数据可视化
 这是一个基于微博评论数据的数据可视化项目，它可以帮你更好的了解某一微博话题的相关评论情况，发现该话题随时间的热度发展情况，中国各地区评论的关注点以及网友对该事件的情绪反应，以达到舆情监控的目的。
 
